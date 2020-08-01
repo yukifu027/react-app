@@ -1,5 +1,6 @@
 import React from 'react';
 import Lesson from './Lesson';
+import ContactForm from './ContactForm';
 
 class Main extends React.Component {
   render() {
@@ -11,17 +12,17 @@ class Main extends React.Component {
       },
       {
         name: 'ぽんかん',
-        image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/sass.svg',
+        image: 'oranges-2533198_640.jpg',
         introduction: 'SassはCSSをより便利に効率的にするための言語です。',
       },
       {
         name: 'はっさく',
-        image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg',
+        image: 'oranges-2533198_640.jpg',
         introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
       },
       {
         name: '花き',
-        image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg',
+        image: 'oranges-2533198_640.jpg',
         introduction: 'ReactはHTMLのように、サイトの見た目をつくることができるJavaScriptのライブラリです。',
       },
     ];
@@ -43,6 +44,10 @@ class Main extends React.Component {
                 />
               );
             })}
+          </div>
+          <div className='contact-container'>
+            <h3>お問い合わせ</h3>
+            <ContactForm />
           </div>
         </div>
       </div>
