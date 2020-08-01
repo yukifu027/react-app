@@ -6,13 +6,12 @@ class Footer extends React.Component {
       <div className='footer'>
         <div className='footer-inner'>
           <div className='footer-logo'>
-            <img src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/type_logo.png' />
-            <p>Learn to code, learn to creative.</p>
+            <p>味じまん三ヶ日みかんのお店</p>
+            <h2 class="footer-title">おいしいみかんやさん</h2>
           </div>
           <ul className='footer-list'>
-            <li>会社概要</li>
-            <li>採用</li>
-            <li>お問い合わせ</li>
+            <li>電話番号：000-0000-0000</li>
+            <li><a class="footer-map" href="https://goo.gl/maps/74koHigGD1czvpJC8">Map</a></li>
           </ul>
         </div>
       </div>
