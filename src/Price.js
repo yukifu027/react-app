@@ -13,17 +13,22 @@ class Price extends React.Component {
     this.setState({number: inputNumber});
   }
 
+  totalPrice(number, price){
+    return number * price
+  }
 
 
   render() {;
     return (
       <div className='lesson-card'>
+        <p>注文</p>
         <input
           type="number"
           value={this.state.number}
           onChange={(event) => {this.handleNumberChange(event)}}
         />
         箱
+        <p>{this.totalPrice(this.state.number, this.props.price)}円</p>
       </div>
     );
   }
