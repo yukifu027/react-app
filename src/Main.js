@@ -1,5 +1,6 @@
 import React from 'react';
 import Lesson from './Lesson';
+import People from './People';
 import ContactForm from './ContactForm';
 
 class Main extends React.Component {
@@ -56,6 +57,7 @@ class Main extends React.Component {
           </div>
           <div class="people-items">
             <h3>私たちが作っています！</h3>
+            <People />
           </div>
           <div className='lesson-container'>
             <h3>選べる農作物</h3>

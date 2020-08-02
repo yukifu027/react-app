@@ -111,6 +111,46 @@ span{
   color: orange;
 }
 
+/* 農家 */
+.loop_wrap {
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.loop_wrap img {
+  width: auto;
+  height: 100%;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.loop_wrap img:first-child {
+  animation: loop 20s -10s linear infinite;
+}
+
+.loop_wrap img:last-child {
+  animation: loop2 20s linear infinite;
+}
+
 /* レッスン */
 .lesson-container {
   margin-top: 96px;
