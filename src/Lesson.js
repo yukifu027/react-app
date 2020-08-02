@@ -44,6 +44,7 @@ class Lesson extends React.Component {
         >
           <p>{this.props.name}</p>
           <img src={this.props.image} />
+          <p>{this.props.price}</p>
         </div>
         {modal}
       </div>
