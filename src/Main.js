@@ -75,6 +75,16 @@ class Main extends React.Component {
                 />
               );
             })}
+            {/* {lessonList.map((lessonItem) => {
+              return (
+                <Price
+                  name={lessonItem.name}
+                  image={lessonItem.image}
+                  introduction={lessonItem.introduction}
+                  price={lessonItem.price}
+                />
+              );
+            })} */}
           </div>
           <div className='contact-container'>
             <h3>お問い合わせ</h3>
