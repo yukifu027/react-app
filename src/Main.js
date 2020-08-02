@@ -1,6 +1,7 @@
 import React from 'react';
 import Lesson from './Lesson';
 import People from './People';
+import Price from './Price';
 import ContactForm from './ContactForm';
 
 class Main extends React.Component {
@@ -75,7 +76,7 @@ class Main extends React.Component {
                 />
               );
             })}
-            {/* {lessonList.map((lessonItem) => {
+            {lessonList.map((lessonItem) => {
               return (
                 <Price
                   name={lessonItem.name}
@@ -84,7 +85,7 @@ class Main extends React.Component {
                   price={lessonItem.price}
                 />
               );
-            })} */}
+            })}
           </div>
           <div className='contact-container'>
             <h3>お問い合わせ</h3>

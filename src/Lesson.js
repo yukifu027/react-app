@@ -17,10 +17,6 @@ class Lesson extends React.Component {
     this.setState({isModalOpen: false});
   }
 
-  handleNumberChange(event){
-    const inputNumber = event.target.value;
-    this.setState({number: inputNumber});
-  }
 
   render() {
     let modal;
@@ -54,11 +50,6 @@ class Lesson extends React.Component {
           <img src={this.props.image} />
           <p>{this.props.price}</p>
         </div>
-        <input
-          type="number"
-          value={this.state.number}
-          onChange={(event) => {this.handleNumberChange(event)}}
-        />
         {modal}
       </div>
     );
