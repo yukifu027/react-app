@@ -14,23 +14,34 @@ class Price extends React.Component {
   }
 
   totalPrice(number, price){
-    const itemPrice = number * price;
+    const itemPrice = Math.round(number * price * 1.1);
     return itemPrice
   }
 
+  // allPrice(pricesList){
+  //   pricesList
+  // }
+
 
   render() {
-    const pricesList = [];
+    // const pricesList = [];
+    // pricesList.push(this.totalPrice(this.state.number, this.props.price));
     return (
       <div className='lesson-card'>
-        <p>注文</p>
+        <p>購入見積もり</p>
         <input
           type="number"
           value={this.state.number}
           onChange={(event) => {this.handleNumberChange(event)}}
         />
         箱
-        <p>{this.totalPrice(this.state.number, this.props.price)}円</p>
+        <p>{this.totalPrice(this.state.number, this.props.price)}円（税込）</p>
+        {/* <p>
+          {pricesList.map((pricesitem) => {
+            let all = 0;
+            all += pricesitem; 
+            return all;
+          })}円</p> */}
       </div>
     );
   }
