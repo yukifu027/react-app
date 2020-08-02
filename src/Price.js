@@ -14,11 +14,13 @@ class Price extends React.Component {
   }
 
   totalPrice(number, price){
-    return number * price
+    const itemPrice = number * price;
+    return itemPrice
   }
 
 
-  render() {;
+  render() {
+    const pricesList = [];
     return (
       <div className='lesson-card'>
         <p>注文</p>
