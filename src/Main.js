@@ -32,30 +32,30 @@ class Main extends React.Component {
       <div className='main-wrapper'>
         <div className='main'>
           <div className="App">
-            <img src="tangerines-1208301_1920.jpg" class="orange-image"></img>
-            <div class="orange-title">ちいさな農家がつくる<br></br>三ヶ日みかんのおみせ</div>
+            <img src="tangerines-1208301_1920.jpg" className="orange-image"></img>
+            <div className="orange-title">ちいさな農家がつくる<br></br>三ヶ日みかんのおみせ</div>
           </div>
-          <div class="reason-items">
+          <div className="reason-items">
             <h3>私たちのみかんが選ばれる3つの理由</h3>
-            <div class="reason-contents">
-              <div class="reason-content">
-                <img src="sun-3588618_1280.jpg" class="reason-image"></img>
+            <div className="reason-contents">
+              <div className="reason-content">
+                <img src="sun-3588618_1280.jpg" className="reason-image"></img>
                 <h2><span><b>日照量の多さ</b></span><br></br>三ヶ日みかんの甘さを作る</h2>
                 <p>浜松市は日本でもトップクラスの日照量を誇ります。この太陽の日差しが、ミカンを甘くしてくれます。</p>
               </div>
-              <div class="reason-content">
+              <div className="reason-content">
                 <img src="plant-4036130_1280.jpg" class="reason-image"></img>
                 <h2><span><b>三ヶ日の土壌</b></span><br></br>三ヶ日みかんにコクを与える</h2>
                 <p>三ヶ日の土は石ガラも多い反面、水はけが良く、味を濃厚にすることができます。</p>
               </div>
-              <div class="reason-content">
-                <img src="winning-2829615_640.png" class="reason-image2"></img>
+              <div className="reason-content">
+                <img src="winning-2829615_640.png" className="reason-image2"></img>
                 <h2><span><b>認められた美味しさ</b></span><br></br>数多くの賞を授与</h2>
                 <p>これまでに農協や自治体から多くの賞をいただいている認められた美味しさです。県外から、わざわざお越しになるお客様も多いです。</p>
               </div>
             </div>
           </div>
-          <div class="people-items">
+          <div className="people-items">
             <h3>私たちが作っています！</h3>
             <People />
           </div>
