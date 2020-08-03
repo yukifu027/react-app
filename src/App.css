@@ -82,6 +82,23 @@ h3 {
   text-shadow: -1px -2px 3px #808080; 
 }
 
+/* 概要 */
+.about-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-image{
+  width: calc(100% / 3);
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-sentense{
+  width: 450px;
+}
+
 /* 理由 */
 .reason-contents{
   display: flex;

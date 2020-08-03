@@ -40,6 +40,13 @@ class Main extends React.Component {
             <img src="tangerines-1208301_1920.jpg" className="orange-image"></img>
             <div className="orange-title">ちいさな農家がつくる<br></br>三ヶ日みかんのおみせ</div>
           </div>
+          <div className="about-items">
+            <h3>三ヶ日みかんとは</h3>
+            <div className="about-content">
+              <img src="mandarins-2043983_1280.jpg" className="about-image"></img>
+              <p className="about-sentense"><b>―甘味と酸味がマッチした濃厚な味わいの地域ブランド―</b><br></br><br></br>「青島みかん」を中心とする三ヶ日みかんは甘さと酸味のバランスが絶妙。浜名湖周辺の山肌で育った三ヶ日みかんは、光センサーなどを使い、糖度とクエン酸（酸度）・大きさ・形状・外観が計測され、厳しい基準をクリアしたものだけが選別、出荷されています。</p>
+            </div>
+          </div>
           <div className="reason-items">
             <h3>私たちのみかんが選ばれる3つの理由</h3>
             <div className="reason-contents">
