@@ -44,7 +44,7 @@ class Main extends React.Component {
             <h3>三ヶ日みかんとは</h3>
             <div className="about-content">
               <img src="mandarins-2043983_1280.jpg" className="about-image"></img>
-              <p className="about-sentense"><b>―甘味と酸味がマッチした濃厚な味わいの地域ブランド―</b><br></br><br></br>「青島みかん」を中心とする三ヶ日みかんは甘さと酸味のバランスが絶妙。浜名湖周辺の山肌で育った三ヶ日みかんは、光センサーなどを使い、糖度とクエン酸（酸度）・大きさ・形状・外観が計測され、厳しい基準をクリアしたものだけが選別、出荷されています。</p>
+              <p className="about-sentense"><b>―甘味と酸味がマッチした濃厚な味わいの地域ブランド―</b><br></br><br></br>静岡県浜松市北区三ヶ日町産の温州みかん。「青島みかん」を中心とする三ヶ日みかんは甘さと酸味のバランスが絶妙。浜名湖周辺の山肌で育った三ヶ日みかんは、光センサーなどを使い、糖度とクエン酸（酸度）・大きさ・形状・外観が計測され、厳しい基準をクリアしたものだけが選別、出荷されています。</p>
             </div>
           </div>
           <div className="reason-items">
