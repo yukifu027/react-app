@@ -2,6 +2,7 @@ import React from 'react';
 import Lesson from './Lesson';
 import People from './People';
 import Price from './Price';
+import Buy from './Buy';
 import ContactForm from './ContactForm';
 
 class Main extends React.Component {
@@ -95,6 +96,10 @@ class Main extends React.Component {
                 />
               );
             })}
+          </div>
+          <div className="buy-items">
+            <h3>購入方法</h3>
+            <Buy />
           </div>
           <div className='contact-container'>
             <h3>お問い合わせ</h3>

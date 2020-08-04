@@ -266,6 +266,28 @@ span{
   transition: .3s ease-in-out;
 }
 
+.buy-image{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.store{
+  width: 350px;
+}
+
+.store-image{
+  padding-left: 65px;
+}
+
+.phone{
+  width: 380px;
+}
+
+.phone-image{
+  padding-left: 135px;
+}
+
 /* コンタクト */
 .contact-container {
   margin-top: 96px;
