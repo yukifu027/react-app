@@ -37,8 +37,10 @@ class Main extends React.Component {
       <div className='main-wrapper'>
         <div className='main'>
           <div className="App">
-            <img src="tangerines-1208301_1920.jpg" className="orange-image"></img>
-            <div className="orange-title">ちいさな農家がつくる<br></br>三ヶ日みかんのおみせ</div>
+            <div id="animation-text">
+              <img src="tangerines-1208301_1920.jpg" className="orange-image"></img>
+              <div className="orange-title">ちいさな農家がつくる<br></br>三ヶ日みかんのおみせ</div>
+            </div>
           </div>
           <div className="about-items">
             <h3>三ヶ日みかんとは</h3>
