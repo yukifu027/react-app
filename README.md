@@ -23,7 +23,7 @@ TECHCAMPでは、jQueryを使用することが多く、フロントエンドに
 
 ### 2. 私たちのみかんが選ばれる3つの理由
 
-[![Image from Gyazo](https://i.gyazo.com/a58669b3a23ccf3efc55b919eca9bc0e.gif)](https://gyazo.com/a58669b3a23ccf3efc55b919eca9bc0e)
+[![Image from Gyazo](https://i.gyazo.com/469899fd57eb7df1452d4406de787b16.png)](https://gyazo.com/469899fd57eb7df1452d4406de787b16)
 
 ### 3.　私たちが作っています！
 
@@ -31,7 +31,11 @@ TECHCAMPでは、jQueryを使用することが多く、フロントエンドに
 
 ### 4.　選べる農作物
 
-![Image from Gyazo](a58669b3a23ccf3efc55b919eca9bc0e.gif)
+![Image from Gyazo](978046c59f1196bec81f2748a704a4bc.gif)
+
+### 5.　購入方法
+
+[![Image from Gyazo](https://i.gyazo.com/e4d7d97c47f3ded1156aecb90b15038d.png)](https://gyazo.com/e4d7d97c47f3ded1156aecb90b15038d)
 
 # 工夫したポイント
 - 農家の暖かく・優しい雰囲気を表現するため、フォントを丸ゴシックにし、文字の間隔を適度に開けました。
