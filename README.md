@@ -39,7 +39,7 @@ TECHCAMPでは、jQueryを使用することが多く、フロントエンドに
 
 ### 6.　お問い合わせ
 
-
+[![Image from Gyazo](https://i.gyazo.com/3415feb8ca7661cff1fccac0070c2458.png)](https://gyazo.com/3415feb8ca7661cff1fccac0070c2458)
 
 # 工夫したポイント
 - 農家の暖かく・優しい雰囲気を表現するため、フォントを丸ゴシックにし、文字の間隔を適度に開けました。
