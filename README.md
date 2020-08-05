@@ -17,15 +17,15 @@ TECHCAMPでは、jQueryを使用することが多く、フロントエンドに
 
 # DEMO
 
-### 1. トップページからログイン
+### 1. 三ヶ日みかんとは
 
-[![Image from Gyazo](https://i.gyazo.com/ad344bc806130014ad13defe4190c8b6.png)](https://gyazo.com/ad344bc806130014ad13defe4190c8b6)
+[![Image from Gyazo](https://i.gyazo.com/49d681f79d7cfe5571f929bd2ef2edf5.png)](https://gyazo.com/49d681f79d7cfe5571f929bd2ef2edf5)
 
-### 2. 他のユーザーを招待して、グループを作成
+### 2. 私たちのみかんが選ばれる3つの理由
 
-![Image from Gyazo](d8bef6a94949c7b12338715fb365cf81.gif)
+[![Image from Gyazo](https://i.gyazo.com/a58669b3a23ccf3efc55b919eca9bc0e.gif)](https://gyazo.com/a58669b3a23ccf3efc55b919eca9bc0e)
 
-### 3.　テキストまたは写真を送信すると、相手の画面が自動で更新され、リアルタイムでチャットができる
+### 3.　私たちが作っています！
 
 ![Image from Gyazo](d826515259b0a4ed0118982bd977f4f3.gif)
 
