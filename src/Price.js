@@ -18,14 +18,8 @@ class Price extends React.Component {
     return itemPrice
   }
 
-  // allPrice(pricesList){
-  //   pricesList
-  // }
-
 
   render() {
-    // const pricesList = [];
-    // pricesList.push(this.totalPrice(this.state.number, this.props.price));
     return (
       <div className='lesson-card'>
         <p>購入見積もり</p>
@@ -36,12 +30,6 @@ class Price extends React.Component {
         />
         箱
         <p>{this.totalPrice(this.state.number, this.props.price)}円（税込）</p>
-        {/* <p>
-          {pricesList.map((pricesitem) => {
-            let all = 0;
-            all += pricesitem; 
-            return all;
-          })}円</p> */}
       </div>
     );
   }
