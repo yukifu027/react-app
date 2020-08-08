@@ -1,40 +1,50 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Lesson from './Lesson';
 import People from './People';
 import Price from './Price';
 import Buy from './Buy';
 import ContactForm from './ContactForm';
 
-class Main extends React.Component {
-  render() {
-    const lessonList = [
-      {
-        name: '三ヶ日みかん',
-        image: 'oranges-2533198_640.jpg',
-        introduction: '三ケ日みかんは「甘さだけではなく、みかんらしい酸味がある」のが特徴。「酸味がある」＋「高い糖度」＝「コクのある奥深い味わい」として全国各地で三ケ日みかん人気が高まっています。',
-        price: '4000'
-      },
-      {
-        name: 'ぽんかん',
-        image: 'oranges-2533198_640.jpg',
-        introduction: '柑橘類の中では酸味が少なく、まろやかな甘味を楽しめるフルーツです。',
-        price: '3000',
-      },
-      {
-        name: 'はっさく',
-        image: 'oranges-2533198_640.jpg',
-        introduction: '皮は厚いですが、剥いた時のさわやかな香りがたまらない柑橘。独特のほろ苦さがあり、上品な甘さとほどよい酸味が特徴です。果肉は歯ごたえがあるので、食感も楽しむことができます。',
-        price: '3500',
-      },
-      {
-        name: '花き',
-        image: 'rose-4372048_640.png',
-        introduction: '南アフリカに自生する1年草もしくは宿根草です。 草丈は15～40cmほどで、葉はギザギザしており、伸びた茎の先に小さな花を連なって咲かせます。 赤や白、青をしたパステルカラーの花色が特徴で、花壇の寄せ植えによく用いられます。',
-        price: '2500',
-      },
-    ];
+function Main() {
+  const [mikanNumber, setMikanNumber] = useState(0);
+  const [ponkanNumber, setPonkanNumber] = useState(0);
+  const [hassakuNumber, setHassakuNumber] = useState(0);
+  const [kakiNumber, setKakiNumber] = useState(0);
+
+  const calcMikanNumber = (number) => {setMikanNumber(Number(number))}
+  const calcPonkanNumber = (number) => {setPonkanNumber(Number(number))}
+  const calcHassakuNumber = (number) => {setHassakuNumber(Number(number))}
+  const calcKakiNumber = (number) => {setKakiNumber(Number(number))}
+
+  const lessonList = [
+    {
+      name: '三ヶ日みかん',
+      image: 'oranges-2533198_640.jpg',
+      introduction: '三ケ日みかんは「甘さだけではなく、みかんらしい酸味がある」のが特徴。「酸味がある」＋「高い糖度」＝「コクのある奥深い味わい」として全国各地で三ケ日みかん人気が高まっています。',
+      price: '4000'
+    },
+    {
+      name: 'ぽんかん',
+      image: 'oranges-2533198_640.jpg',
+      introduction: '柑橘類の中では酸味が少なく、まろやかな甘味を楽しめるフルーツです。',
+      price: '3000',
+    },
+    {
+      name: 'はっさく',
+      image: 'oranges-2533198_640.jpg',
+      introduction: '皮は厚いですが、剥いた時のさわやかな香りがたまらない柑橘。独特のほろ苦さがあり、上品な甘さとほどよい酸味が特徴です。果肉は歯ごたえがあるので、食感も楽しむことができます。',
+      price: '3500',
+    },
+    {
+      name: '花き',
+      image: 'rose-4372048_640.png',
+      introduction: '南アフリカに自生する1年草もしくは宿根草です。 草丈は15～40cmほどで、葉はギザギザしており、伸びた茎の先に小さな花を連なって咲かせます。 赤や白、青をしたパステルカラーの花色が特徴で、花壇の寄せ植えによく用いられます。',
+      price: '2500',
+    },
+  ];
 
     return (
+      <>
       <div className='main-wrapper'>
         <div className='main'>
           <div className="App">
@@ -86,19 +96,37 @@ class Main extends React.Component {
                 />
               );
             })}
-            {lessonList.map((lessonItem) => {
-              return (
-                <Price
-                  name={lessonItem.name}
-                  image={lessonItem.image}
-                  introduction={lessonItem.introduction}
-                  price={lessonItem.price}
-                />
-              );
-            })}
+            <Price
+              name={lessonList[0].name}
+              image={lessonList[0].image}
+              introduction={lessonList[0].introduction}
+              price={lessonList[0].price}
+              func = {calcMikanNumber}
+            />
+            <Price
+              name={lessonList[1].name}
+              image={lessonList[1].image}
+              introduction={lessonList[1].introduction}
+              price={lessonList[1].price}
+              func = {calcPonkanNumber}
+            />
+            <Price
+              name={lessonList[2].name}
+              image={lessonList[2].image}
+              introduction={lessonList[2].introduction}
+              price={lessonList[2].price}
+              func = {calcHassakuNumber}
+            />
+            <Price
+              name={lessonList[3].name}
+              image={lessonList[3].image}
+              introduction={lessonList[3].introduction}
+              price={lessonList[3].price}
+              func = {calcKakiNumber}
+            />
           </div>
           <div className="buy-items">
-            <h3>購入方法</h3>
+          <h3>購入方法{Number(mikanNumber) + Number(ponkanNumber) +Number(hassakuNumber) + Number(kakiNumber)}</h3>
             <Buy />
           </div>
           <div className='contact-container'>
@@ -107,8 +135,8 @@ class Main extends React.Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
-}
 
 export default Main;
