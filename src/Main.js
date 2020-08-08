@@ -125,8 +125,11 @@ function Main() {
               func = {calcKakiNumber}
             />
           </div>
+          <div class="totalprice">
+            合計金額{Math.round(lessonList[0].price * Number(mikanNumber) * 1.1 + lessonList[1].price * Number(ponkanNumber) * 1.1 + lessonList[2].price * Number(hassakuNumber) * 1.1 + lessonList[3].price * Number(kakiNumber) * 1.1)}円
+          </div>
           <div className="buy-items">
-          <h3>購入方法{Number(mikanNumber) + Number(ponkanNumber) +Number(hassakuNumber) + Number(kakiNumber)}</h3>
+          <h3>購入方法</h3>
             <Buy />
           </div>
           <div className='contact-container'>
