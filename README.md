@@ -31,7 +31,7 @@ TECHCAMPでは、jQueryを使用することが多く、フロントエンドに
 
 ### 4.　選べる農作物
 
-![Image from Gyazo](978046c59f1196bec81f2748a704a4bc.gif)
+![Image from Gyazo](6266e6f3b3d59d5867c6176cb29407cf.gif)
 
 ### 5.　購入方法
 
