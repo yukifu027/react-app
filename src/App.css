@@ -303,6 +303,11 @@ span{
   padding-left: 135px;
 }
 
+.googleMap{
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* コンタクト */
 .contact-container {
   margin-top: 96px;
