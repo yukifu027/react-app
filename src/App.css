@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Avenir Next";
   min-width: 1280px;
@@ -46,7 +46,6 @@ h3 {
   font-weight: bold;
   animation-name: fadein;
   animation-duration: 2s;
-  /* animation-iteration-count: infinite; */
 }
 @keyframes fadein {
 from {
