@@ -146,7 +146,7 @@ span{
 /* 農家 */
 .loop_wrap {
   display: flex;
-  width: calc(100vw - 400px);
+  max-width: 1040px;
   height: 300px;
   overflow: hidden;
 }
