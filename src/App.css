@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Avenir Next";
-  min-width: 1280px;
 }
 
 ul {
@@ -147,10 +146,9 @@ span{
 /* 農家 */
 .loop_wrap {
   display: flex;
-  width: 100vw;
+  width: calc(100vw - 400px);
   height: 300px;
   overflow: hidden;
-  margin-left: 100px;
 }
 
 .loop_wrap img {
@@ -177,11 +175,11 @@ span{
 }
 
 .loop_wrap img:first-child {
-  animation: loop 20s -10s linear infinite;
+  animation: loop 40s -20s linear infinite;
 }
 
 .loop_wrap img:last-child {
-  animation: loop2 20s linear infinite;
+  animation: loop2 40s linear infinite;
 }
 
 /* レッスン */
